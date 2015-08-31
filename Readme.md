@@ -1,6 +1,18 @@
+# EagleLibs
+
+My custom packages and scripts for Cadsoft Eagle.
+
+## Installation
+
+1. Download whole folder structure to the computer 
+2. For adding the folders in Eagle:  
+	Goto Options -> Folders  
+	e.g.: `$EAGLEDIR\lbr;path_to_eaglelibs\EagleLibs\lbr` for the library folder
+
+## License
 The MIT License (MIT)
 
-Copyright (c) 2015 Martin NÃ¶hrer
+Copyright (c) 2015 Martin Nöhrer
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
