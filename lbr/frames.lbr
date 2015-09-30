@@ -176,7 +176,7 @@
 <wire x1="90.578490625" y1="22.917340625" x2="89.5985" y2="24.384" width="0.254" layer="94" curve="-67.500036"/>
 <wire x1="89.5985" y1="24.384" x2="91.793509375" y2="22.917340625" width="0.254" layer="94" curve="-247.500028"/>
 <wire x1="91.793509375" y1="22.917340625" x2="92.522521875" y2="21.15735" width="0.254" layer="94"/>
-<text x="83.566" y="18.288" size="1.778" layer="94">open hardware</text>
+<text x="91.186" y="18.288" size="1.778" layer="94" align="center">open hardware</text>
 <text x="1.27" y="17.78" size="2.54" layer="94" align="center-left">PROJECT:</text>
 <wire x1="0" y1="10.16" x2="87.63" y2="10.16" width="0.1016" layer="94"/>
 <text x="1.27" y="12.7" size="2.54" layer="94" align="center-left">TITLE:</text>
