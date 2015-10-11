@@ -1,2 +1,2 @@
-# Enable and display standard layers
+# Enable and display layers for top view
 DISPLAY NONE 1 17 18 19 20 21  23 25  51;
