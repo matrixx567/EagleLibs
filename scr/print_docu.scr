@@ -1,0 +1,30 @@
+# Print documentation
+
+SCH:
+
+EXPORT PARTLIST partlist.txt
+#EXPORT IMAGE %N-schematic.png MONOCHROM 400
+PRINT -MIRROR BLACK LANDSCAPE FILE %N-schematic.pdf;
+
+BRD:
+
+RATSNEST
+SCRIPT colornormal
+#EXPORT IMAGE %N-board.png 400
+#PRINT -MIRROR -BLACK LANDSCAPE FILE %N-board.pdf;
+
+
+SCRIPT colordocu
+SCRIPT top
+DISPLAY  -19 -23 -24
+PRINT -MIRROR -BLACK LANDSCAPE FILE %N-assembly-top.pdf;
+DISPLAY NONE 1 17 18 20
+PRINT -MIRROR BLACK LANDSCAPE FILE %N-copper-top.pdf;
+
+SCRIPT bottom
+DISPLAY  -19 -23 -24
+PRINT MIRROR -BLACK LANDSCAPE FILE %N-assembly-bottom.pdf;
+DISPLAY NONE 16 17 18 20
+PRINT MIRROR BLACK LANDSCAPE FILE %N-copper-bottom.pdf;
+
+SCRIPT colornormal

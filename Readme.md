@@ -9,6 +9,16 @@ My custom packages and scripts for Cadsoft Eagle.
 	Goto Options -> Folders  
 	e.g.: `$EAGLEDIR\lbr;path_to_eaglelibs\EagleLibs\lbr` for the library folder
 
+	
+## BOM
+
+The BOM folder contains part descriptions for creating bills of materials
+
+## SH
+
+The sh folder contains additional shell scripts
+	
+	
 ## License
 The MIT License (MIT)
 
